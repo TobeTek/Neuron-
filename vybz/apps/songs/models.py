@@ -12,5 +12,5 @@ class Song(models.Model):
 class Genre(models.Model):
     name = models.CharField(max_length=10)
     songs = models.ManyToManyField(Song, related_name="genre", blank=True)
-    pass
+    
 

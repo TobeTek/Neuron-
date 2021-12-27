@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
-from apps.songs import models as song_models 
+from vybz.apps.songs import models as song_models 
 
 # Create your models here.
 class CustomUser(AbstractUser):
