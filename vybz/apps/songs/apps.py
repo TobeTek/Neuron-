@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class AccountsConfig(AppConfig):
+class SongsConfig(AppConfig):
     name = 'vybz.apps.songs'

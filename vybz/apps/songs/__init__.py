@@ -1,0 +1,1 @@
+default_app_config = "vybz.apps.songs.apps.SongsConfig"

@@ -24,8 +24,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
-    # "vybz.apps.main",
-    # "vybz.apps.articles",
+    "vybz.apps.main",
+    "vybz.apps.articles",
     "vybz.apps.songs",
     "accounts",
 ]
